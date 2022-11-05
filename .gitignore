@@ -1,6 +1,3 @@
-# Exclude icons folder
-icons
-
 # Logs
 logs
 *.log
