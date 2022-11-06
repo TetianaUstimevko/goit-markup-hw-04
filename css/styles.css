@@ -310,6 +310,7 @@ img {
   padding-bottom: 30px;
 }
 .team-content {
+  margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -413,4 +414,26 @@ img {
   justify-content: center;
   align-items: center;
   gap: 10px;
+}
+
+.socials-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: var(--common-white);
+  /* outline: 2px silid red;
+  outline-offset: -2px; */
+}
+
+.socials-link:hover .socials-icon,
+.socials-link:focus .socials-icon {
+  fill: var(--common-white);
+  background-color: var(--color-blue);
+}
+
+.socials-icon {
+  fill: #afb1b8;
 }
