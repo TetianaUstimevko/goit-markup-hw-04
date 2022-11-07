@@ -450,7 +450,7 @@ img {
 
 .footer-container {
   display: flex;
-  align-self: baseline;
+  align-items: baseline;
 }
 
 .footer-text {
@@ -501,10 +501,6 @@ img {
 .portfolio-link {
   display: block;
   text-decoration: none;
-  font-family: "Roboto";
-  font-size: 18px;
-  line-height: 2px;
-  letter-spacing: 0.06em;
   color: var(--primary-color);
 }
 .portfolio-link:hover {
@@ -568,5 +564,4 @@ img {
 .socials-link:hover .socials-icon,
 .socials-link:focus .socials-icon {
   fill: var(--common-white);
-  background-color: var(--color-blue);
 }
